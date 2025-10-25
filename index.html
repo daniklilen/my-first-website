@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta name="description" content="Учебный сайт по основам HTML и CSS">
+        <meta name="keywords" content="HTML, CSS, обучение, фронтенд, программирование, вёрстка, сайт, учебный проект">
+        <meta name="author" content="Даник">
+        <title>Мой учебный сайт</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="stylesite.css">
+    </head>
+    <body>
+        <header>
+        <h1> Основы HTML и CSS - учебный сайт</h1>
+        <br>
+
+        <hr>
+        
+        <h2> Навигационное меню:</h2>
+        <nav class="main_nav">
+            <a href="#goals" class="nav-link">Задачи</a>
+            <a href="#plans" class="nav-link">Планы</a>
+            <a href="#feedback" class="nav-link">Обратная связь</a>
+            <a href="#linksandcat" class="nav-link">Ссылки и котик</a>
+            <a href="#favouritepoem" class="nav-link">Стишок!</a>
+            <a href="#progressHTML" class="nav-link">Прогресс по изучению HTML</a>
+            <a href="#progressCSS" class="nav-link">Прогресс по изучению CSS</a>
+        </nav>
+        </header>
+        <br>
+
+        <hr>
+<main>
+        <section id ="goals">
+        <h2><p><strong>Задачи:</strong></p></h2>
+        <ul class="goals">
+        <li> Изучить основы языка HTML и CSS </li>
+        <li> Постараться не ложиться поздно спать :] </li>
+        <li> Как-нибудь да справится в общем! </li>
+        <li> P.S HTML изучен, сейчас учим CSS!</li>
+        </ul>
+    </section>
+
+        <hr>
+
+        <section id ="plans">
+    <h2> Что я буду делать: </h2>
+    <ol class="plans"> 
+    <li> Пытаться что-то создавать, да и вроде это получается </li>
+    <li> Учить теги, причём упорно. (UPD: Выучил, сейчас учу селекторы в CSS!) </li>
+    <li> Улучшать свой первый проект постепенно</li>
+    </ol>
+</section>
+
+    <hr>
+
+    <section id ="progressHTML">
+        <h2> Мой прогресс по изучению HTML!</h2>
+        <table class="progress-table-html">
+            <thead>
+                <tr>
+                    <th>Тема</th>
+                    <th> Статус</th>
+                    <th> Дата изучения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Основные теги</td>
+                    <td>✅</td>
+                    <td>День 1</td>
+                </tr>
+                <tr>
+                    <td>Гиперссылки и изображения</td>
+                    <td>✅</td>
+                    <td>День 2</td>
+                </tr>
+                <tr>
+                    <td>Формы и семантическая вёрстка</td>
+                    <td>✅</td>
+                    <td>День 3 и 4</td>
+                </tr>
+                <tr>
+                    <td>Таблицы</td>
+                    <td>✅</td>
+                    <td>День 5</td>
+                </tr>
+                <tr>
+                    <td>Медиа-теги</td>
+                    <td>✅</td>
+                    <td>День 6</td>
+                </tr>
+                 <tr>
+                    <td>Мета-теги и SEO</td>
+                    <td>✅</td>
+                    <td>День 7</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="progressCSS">
+        <h2>Мой прогресс по изучению CSS!</h2>
+        <table class="progress-table-css">
+            <thead>
+            <tr>
+                <th>Тема</th>
+                <th> Статус</th>
+                <th> Дата изучения</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Введение в CSS</td>
+                <td>✅</td>
+                <td>День 1</td>
+            </tr>
+            <tr>
+                <td> Селекторы и их виды</td>
+                <td>✅</td>
+                <td>День 2</td>
+            </tr>
+            <tr>
+                <td> Блочная модель</td>
+                 <td>✅</td>
+                <td>День 3</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <hr>
+
+    <section id="linksandcat">
+    <h3 class="cat-intro"> А теперь добавим немножко ссылок и милую фотку с котиком! Ну и другие плюшки!</h3>
+
+    <h3>🎵 Музыка для релакса:</h3>
+    <audio controls class="audio">
+        <source src="relaxing.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио!
+    </audio>
+    <br>
+
+    <hr>
+
+    <h3>🎥 Видео для вдохновения:</h3>
+    <iframe class="video"
+        width = "560"
+        height = "315"
+        src="https://www.youtube.com/embed/I5UBikauIQM"
+        frameborder="0"
+        allowfullscreen>
+</iframe>
+<br>
+
+<hr>
+
+<h3>🔗 Полезные ссылки:</h3>
+
+    <ul class="useful-links">
+        <li><a href="https://www.youtube.com" class="useful-links-link"> Ютубчик! </a></li>
+        <li><a href="https://google.com" target="_blank" class="useful-links-link">Гугл</a></li>
+        <li><a href="mailto:example@gmail.com" class="useful-links-link">Это моя почта!</a></li>
+    </ul>
+
+    <hr>
+
+     <h3>🐱 Ну и как же без котика! </h3>
+    <img src="https://i.pinimg.com/736x/c2/45/ea/c245ea4a861e1a0ffb756fa65fd7bcce.jpg" alt="Котик" width="300" class="cat">
+    </section>
+<br>
+    <hr>
+
+    <article class="article">
+        <h2> Мой прогресс в изучении!</h2>
+        <p> 20.10.2025 - Изучил основы HTML</p>
+        <p> 21.10.2025 - Начал учить CSS</p>
+    </article>
+
+    <hr>
+
+    <aside class="fact">
+        <h3> Интересный факт!</h3>
+        <p>DeepSeek - помогает больше в учёбе чем мой препод по экономике</p>
+    </aside>
+
+    <hr>
+
+    <section id="feedback">
+    <h2> Обратная связь! </h2>
+    <form class="feedback-form">
+        <input type ="text" class="form-input" placeholder="Ваше имя"><br><br>
+        <input type ="text" class="form-input" placeholder="Ваш вопрос"><br><br>
+        <input type ="email" class="form-input"placeholder="Ваша почта"><br><br>
+        <textarea class="form-text-area" placeholder="Расскажите интересующие Вас аспекты"></textarea><br><br>
+        <button type="reset" class="form-button button-reset">Очистить форму!</button>
+        <button type="submit" class="form-button button-submit">Отправить форму!</button>
+    </form>
+    </section>
+
+    <hr>
+
+    <section id="favouritepoem" class="favourite-poem-section">
+    <h4> Ну и наконец, небольшой стишок!</h4>
+    <p class="favourite-poem">
+        Я на лекции сижу <br>
+        Я на лектора гляжу <br>
+        Чем он больше нагружает <br>
+        Тем я больше торможу! <br>
+        </p>
+    </section>
+</main>
+
+    <hr>
+
+    <footer>
+        <p>© 2025 Мой учебный сайт. Все права защищены.</p>
+        <p>Контакты: <a href="mailto:matiebal2001@gmail.com" class="my-mail">Моя почта!</a></p>
+        <p>Хз что тут внизу писать</p>
+    </footer>
+    </body>
+</html>
